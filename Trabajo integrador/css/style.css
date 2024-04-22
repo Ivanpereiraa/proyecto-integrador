@@ -1,0 +1,28 @@
+.accesorio {
+    width: 200px; /* Ancho deseado */
+    text-align: center;
+    margin: 20px; /* Margen alrededor de cada accesorio */
+    display: inline-block;
+    vertical-align: top; /* Alineación vertical */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: 0.3s; /* Transición suave al pasar el cursor */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f2f2f2; /* Color de fondo */
+}
+
+.accesorio img {
+    width: 100%; /* Para asegurarse de que la imagen ocupe todo el espacio disponible */
+    height: auto; /* Permitir que la altura se ajuste automáticamente de acuerdo con la anchura */
+    max-width: 100%; /* Asegurar que las imágenes no excedan su contenedor */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.accesorio h2 {
+    padding: 10px;
+    margin: 0; /* Eliminar el margen por defecto */
+}
+
+.accesorio p {
+    padding: 10px;
+    margin: 0; /* Eliminar el margen por defecto */
+}

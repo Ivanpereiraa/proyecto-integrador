@@ -1,0 +1,16 @@
+.accesorio {
+    display: inline-block;
+    width: 200px; /* Ancho deseado */
+    text-align: center;
+    margin: 10px; /* Margen alrededor de cada accesorio */
+    vertical-align: top; /* Alineación vertical */
+}
+
+.accesorio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.accesorio h2 {
+    margin-top: 10px; /* Margen superior para el título */
+}
